@@ -1,0 +1,1481 @@
+@media screen and (max-width: 1023px) and (orientation: landscape){
+
+    header{ 
+        width: calc(fit-content + 10%);
+        height: calc(fit-content + 10%);  
+	width: 17vw;   
+      }
+    
+        .hamburger{
+    
+	
+          width: 5vw;  
+          margin-left:60%;
+        
+        }
+       
+#menu{
+ 
+  margin-left:0%;
+
+}
+
+                  #menu  a  {            
+                    font-size: calc(12px + (18 - 12) * ((100vw - 360px) / (1024 - 360)));
+                    margin-top: 15%;
+                    margin-right: 1vw;
+                    
+                  }
+
+                  #menu  a:last-child { 
+
+                    margin-bottom: 10%;
+
+                  }
+
+                  
+                  .whiteBack{
+
+
+                    background-color: #fff;
+                    padding: 10%;
+                    border-radius: 3px 0 0 3px;
+                    box-shadow: -2px 2px 6px rgba(0, 0, 0, 0.25);
+                  }
+                  #hookBloc{
+
+                    width:80vw;
+                    margin-left: 10vw;
+                  }
+                
+                  #hookBloc h1{
+                  
+                    font-size:calc(20px + (36 - 20) * ((100vw - 360px) / (1024 - 360)));            
+                    letter-spacing: 0.1rem;
+                    margin-bottom: 3%; 
+                    
+              
+                  }
+    
+                  .littleH1{
+                    width: 100%;
+                    font-size:calc(24px + (40 - 24) * ((100vw - 360px) / (1024 - 360)));              
+                    letter-spacing: 0.1rem;
+                    margin-top: 10%;     
+                   
+    
+                  }
+
+                  #titre{
+                  
+                    
+                    margin-top: 2vw;
+                    margin-bottom: 0;
+    
+                  }
+    
+    
+                  #groupButton{
+    
+                    width: 70%;
+                    margin-top: 5%;          
+                    margin-bottom: 7%;
+    
+                  }
+    
+              
+    
+                          .button{
+    
+                            width: 20vw;
+                            height: 5vw;                      
+                            border-radius: 10px;                      
+                            font-size:calc(12px + (16 - 12) * ((100vw - 360px) / (1024 - 360))); 
+                            border: 1.5px solid #fff;
+                          }
+    
+                                    .button img{
+                                     
+                                      display: none;
+    
+                                    }
+
+
+
+/*#################################################################################################################*/
+/*############################################# Bloc About ########################################################*/
+/*#################################################################################################################*/
+
+
+#about{
+
+    width: 100vw;
+    height:fit-content;
+    min-height: 80vh;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    z-index: 1;
+   
+}
+          h2{
+
+            font-size:calc(22px + (36 - 22) * ((100vw - 360px) / (1024 - 360)));
+            letter-spacing: 2px;
+            font-weight: bold;
+            margin-block-start: 4vw;
+            margin-block-end: 4vw;
+          }
+
+  #blocAbout{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 95%;
+    height: 100%;
+    margin-bottom: 3%;
+
+
+  }
+
+          .blocText{
+
+            width: 80%;         
+            opacity: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start;
+        
+            
+          }
+
+                .animLeft{    /* ajouter en Javascript */
+
+                    animation-name: fadeInLeft;
+                    animation-duration: 1s;
+                    opacity: 1;
+                    
+                }
+
+                .animRight{
+                    
+                    animation-name: fadeInRight;
+                    animation-duration: 1s;
+                    opacity: 1;
+
+                }
+
+                .animReverseRight{
+
+                    animation-name: ReverseInRight;
+                    animation-duration: 1s;
+                    opacity: 0;
+
+                }
+
+
+          .blocText h4{
+
+            font-size:calc(18px + (24 - 18) * ((100vw - 360px) / (1024 - 360)));
+            margin-block-start: 1vw;
+            margin-block-end: 0.5vw;
+          }
+
+          .blocText p{
+
+            width: 90%;
+            height: fit-content;
+            font-size:calc(12px + (14 - 12) * ((100vw - 360px) / (1024 - 360)));
+            text-align: justify;
+            margin-bottom:2vw;
+            line-height: calc(1.2em + (2.5 - 1.2) * ((100vw - 360px) / (1024 - 360)));
+
+          }
+
+          .blocText p:last-child{
+
+
+            margin-bottom: 5%;
+          }
+
+          .bold{
+
+            font-weight: bold;
+          }
+
+
+         
+
+          .blocText .buttonDark{
+
+           display: none;
+
+          }
+          
+          .buttonDark{
+
+            width: 17vw;
+            height: 5vw;
+            font-size:calc(12px + (16 - 12) * ((100vw - 360px) / (1024 - 360))); 
+          }     
+
+
+          .buttonDark img{
+
+            width: 3.5vw;
+
+          }
+
+          #centerAbout{
+            width: 70%;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            text-align: center;
+            justify-content: space-around;
+            font-size:calc(14px + (18 - 14) * ((100vw - 1024px) / (1920 - 1024)));
+            letter-spacing: 0.02rem;
+            margin-top: 5%;
+            margin-bottom: 5%;
+          }
+
+                    #infoPerso{
+                      height: 100%;
+                      margin-top: 1vw;
+                      margin-bottom: 1vw;
+                      margin-left: 5%;
+
+                    }
+
+                    #carreVert{
+                      
+                      z-index: 5;
+                      width: 20vw;
+                      height: 20vw;
+                      border:3px solid #00cfeb;
+                      border-radius: 8px;
+                   
+
+
+                    }           
+
+                    #carreVert img{
+                    justify-self: start;  
+                      position: absolute;
+                                      
+                      left:-1.5vw;
+                      top: -2.5vw;
+                      width: 20vw;
+                      min-width: 12vw;
+                    
+
+                    }
+
+
+/*###########################################################################################################################################*/
+/*###################################################### Bloc Compétences ###################################################################*/
+/*###########################################################################################################################################*/
+
+#competence{
+
+    width: 100vw;
+    min-height: 100vh;
+    height: fit-content;
+    padding-bottom: 3vw;
+  }
+  
+    #competence h2{
+  
+      color:#fff;
+      margin-block-end: 4vw;
+      margin-block-start: 4vw;
+      height: fit-content;
+      
+    }
+  
+        .qualite{
+  
+          width: 80%;
+          height: 50%;
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          justify-content: space-around;
+          vertical-align: top;
+          flex-wrap: wrap;
+ 	  margin-bottom:2vh;
+          
+        }
+
+  
+        .blocImg{
+  
+          width: 50%; 
+          min-height: 50%;      
+          opacity: 0;
+          margin-top: 2%;
+          margin-bottom: 5%;
+        }
+  
+          .animZoom{
+  
+            animation-name: zoomIn;
+            animation-duration: 1.5s;
+            opacity: 1;
+  
+          }
+  
+                      .blocImg h4{
+                        width: 80%;
+                        margin-block-end: 2%;
+                        min-height: 3vw;                 
+                        letter-spacing: 0.05rem;
+                        font-size:calc(13px + (16 - 13) * ((100vw - 360px) / (1024 - 360)));
+
+                      }
+  
+                      .blocImg p{
+                        width: 70%;  
+                        min-height: 16.5vh;                   
+                        font-size:calc(12px + (14 - 12) * ((100vw - 360px) / (1024 - 360)));                    
+                        line-height: 1.2em;
+                        margin-block-start:0.5vw ;
+                        
+                      }
+  
+                      .img{
+  
+                        width: 10vw;
+                        height: 10vw;
+                        /*background-color:#2ACB02;*/
+                        border: 3px solid #fff;
+                        border-radius:100%;
+                    
+                      }
+  
+                        .img:hover{
+     
+                          background-color: #00cfeb;
+                               width: 9.5vw;
+                               height: 9.5vw;
+                        }
+  
+                 
+                
+  
+                      .blocImg img{
+                  
+                        width: 60%;               
+                       
+                      }
+
+
+
+/*###########################################################################################################################################*/
+/*###################################################### Bloc Portofolio ####################################################################*/
+/*###########################################################################################################################################*/
+
+#portfolio{
+
+    width: 100vw;
+    height: fit-content;
+    margin-bottom: 2%;
+   
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    
+  
+  }
+  
+          #portfolio h2{
+  
+            width: fit-content;
+            margin-block-start: 4vw;
+            margin-block-end: 2vw;
+          }
+      
+  
+          .blocProjet{
+  
+            width: 92%;
+            min-height: 40vw;
+            height: fit-content;
+            margin-top: 1.8%;
+
+          }
+  
+          .leftbloc p{
+
+            margin-block-start: 5%;
+            font-size:calc(11px + (14 - 11) * ((100vw - 360px) / (1024 - 360)));
+            line-height: 1.5em;
+
+          }
+          .leftbloc{
+  
+            width:50%;
+            min-height: 35vw;
+            height: fit-content;
+          
+          }
+  
+                  .leftbloc a{
+  
+                    text-decoration: none;
+                  }
+  
+                  .leftbloc h5{
+                  align-self: start;
+                  margin-block-start: 1em;
+                  margin-block-end: 0;
+                  font-size:calc(16px + (24 - 16) * ((100vw - 360px) / (1024 - 360)));
+                  letter-spacing: 0.05em;
+                  }
+  
+  
+  
+                  .techno{
+  
+                    width: fit-content;
+                    max-width: 80%;
+                    margin-bottom: 2vw;
+                    margin-top: 2vw;
+          
+                  }
+          
+                  .techno img{
+                    width: 13%;
+                  }
+          
+                  .groupButtonPortfolio{
+                    width: 100%;
+                    height: 5vw;
+                    margin-top: 1vw;
+                  }
+  
+                  .groupButtonPortfolio .buttonDark{
+  
+                    width: 15vw;
+                    height: 4.5vw;
+                    border-radius: 5px;
+                    font-size:calc(10px + (13 - 10) * ((100vw - 360px) / (1024 - 360)));
+  
+                  }
+  
+  
+          .rightbloc{
+  
+            width: 50%;
+            min-height: 40vw;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            padding-left: 5%;
+          
+           
+          
+          }
+                  .rightbloc img{
+  
+                    width:100%;
+                    margin-left: 2vw;
+                
+  
+                  }
+
+                  .description{
+    
+                    height: 4.5vw;             
+                    width: 100%;   
+                    position: absolute;
+                    background-color:rgba(17, 17, 17, 0.8);
+                    color:#fff;
+                    bottom: 0.5%;
+    
+                  }
+    
+                  .description p{
+    
+                    margin-block-start: 0.9%;
+                    margin-block-end: 0.5%;
+                    margin-left: 1%;
+                    font-size:calc(10px + (12 - 10) * ((100vw - 360px) / (1024 - 360)));
+                  }
+    
+    
+                  .slider .prev,
+                  .slider .next {
+                  
+                    height: 1rem;
+                    width: 1rem;
+                    padding: 1rem;
+                  
+                  }
+                  .slider .prev svg,
+                  .slider .next svg {
+               
+                    width: 0.7rem;
+                    height: 0.7rem;
+                  
+                  }
+
+
+                 .slider .switch {
+                    
+                    display: none;
+                             
+                  }
+                   .slider .switch i {
+                
+                    display: none;
+                    
+                  }
+             
+               
+
+/*###########################################################################################################################################*/
+/*###################################################### Bloc Contact #######################################################################*/
+/*###########################################################################################################################################*/
+
+
+
+
+  #contact h2{
+
+    margin-block-start: 3%;
+    margin-block-end: 4%;
+    justify-self: start;
+  }
+
+  #form{
+
+    width:95%;
+    height:fit-content;
+
+  }
+
+  .envoyeur{
+
+    width: 100%;
+    display: flex;
+    height: fit-content;
+    margin-bottom: 5%;
+
+  }
+
+  .texteInput{
+    
+    width: 35vw;
+    height: 5vw;
+    font-size:calc(10px + (14 - 10) * ((100vw - 360px) / (1024 - 360))); 
+    text-indent: 8%;
+    line-height: 1.3em;
+    border-radius: 4px;
+  }
+
+
+
+          .texteInput::placeholder{
+
+            font-size:calc(10px + (12 - 10) * ((100vw - 360px) / (1024 - 360)));    
+
+          }
+
+          .texteInput:first-child{
+
+            margin-left: 10%;
+
+          }
+
+          .texteInput:last-child{
+
+            margin-right: 10%;
+          }
+
+
+
+          #form textarea{
+
+            width:65%;
+            height:25vw;
+            border-radius: 4px;
+            font-size:calc(10px + (12 - 10) * ((100vw - 360px) / (1024 - 360))); 
+            letter-spacing: 0.05em;
+            padding-left: 1vw;
+            padding-top: 1vw;
+            outline: thick;
+            overflow: auto;
+            
+          }   
+
+       
+                   
+          #form textarea::placeholder{
+
+            font-size:calc(11px + (13 - 11) * ((100vw - 360px) / (1024 - 360)));                   
+            letter-spacing: 0.05em;
+      
+
+          }
+
+       
+          #form .buttonDark{
+            width: 18vw;
+            height: 5.5vw;
+            background-color: #00cfeb;
+            color: #fff;
+            margin-top: 4%;
+            border: none;
+
+          }
+
+          .popup{
+
+            width: 85vw;
+            height:30vw;    
+            margin-top: 20vw;
+            border-radius: 5px;
+      
+          }
+
+          .popup p{
+
+            font-size:calc(10px + (14 - 10) * ((100vw - 360px) / (1024 - 360)));            
+            letter-spacing: 0.05em;
+            margin-block-end: 3%;
+            
+          }
+
+          .popupProjet{
+
+            width: 95vw;
+            height: 52vw;
+            margin-bottom:4%;   
+            border-radius: 5px;     
+          
+          }   
+
+          .popupProjet .buttonDark{
+
+            width: 14vw;
+            height: 4.5vw;
+          }
+
+          .popupProjet .slider {
+            position: relative;
+            overflow: hidden;
+            width: 90vw;
+            height: 44vw;
+            margin-top: 0.5vw;
+           
+            box-shadow: 1px 4px 8px rgba(0, 0, 0, 0.40);
+            z-index: 201;
+          }
+        
+         
+          .popupProjet .slider .background  {
+            display: block;
+            width: 100%;           
+            height: 44vw;
+          }
+          .popupProjet .slider .slider-item  > img {
+            
+            width: 100%;
+            height:44vw;
+      
+          }
+    
+          .popupProjet .slider .prev,
+          .popupProjet .slider .next {
+            z-index: 211;
+            position: absolute;
+            top: calc(50% - 1.4rem);
+            height: 1rem;
+            width: 1rem;
+            padding: 1rem;
+         
+          }
+         
+          footer{
+            width: 100vw;
+            height: fit-content;
+            background-color: #1D2528;
+            box-shadow: 0px -2px 6px rgba(0, 0, 0, 0.25);
+          }
+          
+            footer p {
+          
+          
+              width: 100%;
+              color: #fff;
+              font-size:calc(10px + (13 - 10) * ((100vw - 360px) / (1024 - 360)));   
+              letter-spacing: 0.10em;
+              text-align: center;
+            }
+          
+
+}
+
+/*#############################################################################################*/
+/*########################################### Portrait ########################################*/
+/*#############################################################################################*/
+  
+@media screen and (max-width: 1023px) and (orientation: portrait){
+
+
+    header{ 
+    
+     
+        right: 5px;
+	width:32vw;    
+      }
+    
+        .hamburger{
+    
+        width: 10vw;
+          margin-left:55%;
+        
+        }
+
+       #menu{
+        margin-left:0%;
+	right:0;
+        margin-right: 0;
+
+
+       }
+                  #menu  a  {            
+                    font-size: calc(14px + (20 - 14) * ((100vw - 360px) / (1024 - 360)));
+                    margin-top: 15%;
+                    margin-right: 1vw;
+                    
+                  }
+
+                  #menu  a:last-child { 
+
+                    margin-bottom: 10%;
+
+                  }
+                  
+                  .whiteBack{
+
+
+                    background-color: rgba(255, 255, 255, 0.95);
+                    padding: 10%;
+                    border-radius: 3px 0 0 3px;
+                    box-shadow: -2px 2px 6px rgba(0, 0, 0, 0.25);
+                  }
+
+                  .darkBack{
+
+                    background-color: rgba(35, 35, 35, 0.90);
+                    padding: 10%;
+                    border-radius: 3px 0 0 3px;
+                    box-shadow: -2px 2px 6px rgba(0, 0, 0, 0.25);
+
+                  }
+
+    #home {
+                  
+        width: 100vw;
+        height: 100vh;             
+    }
+
+                  #hookBloc{
+
+                    width:90vw;
+                    height: fit-content;
+                    margin-left: 5vw;
+                    margin-right: 0;
+                    margin-top: 18vh;
+                  }
+                
+                  #hookBloc h1{
+                  
+                    font-size:calc(26px + (48 - 26) * ((100vw - 360px) / (1024 - 360)));            
+                    letter-spacing: 0.1rem;
+                    margin-bottom: 10%; 
+                    
+              
+                  }
+    
+                  .littleH1{
+                    width: 100%;
+                    font-size:calc(32px + (52 - 32) * ((100vw - 360px) / (1024 - 360)));              
+                    letter-spacing: 0.1rem;
+                    margin-top: 10%;  
+                    min-height: 10vh;   
+                   
+    
+                  }
+
+                  #titre{   
+                    min-height: 33vh;         
+                    margin-top: 2vw;
+                    margin-bottom: 0;
+    
+                  }
+    
+    
+                  #groupButton{
+                    
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: space-around;
+                    width: 70%;
+                    margin-top: 3vh;          
+                    margin-bottom: 7%;
+    
+                  }
+    
+                          .button{
+    
+                            width: 40vw;
+                            height: 6vh;                      
+                            border-radius: 10px;                      
+                            font-size:calc(12px + (16 - 12) * ((100vw - 360px) / (1024 - 360))); 
+                            border: 1.5px solid #fff;
+                            margin-bottom: 6vh;
+                          }
+    
+                                    .button img{
+                                     
+                                      display: none;
+    
+                                    }
+
+
+
+/*#################################################################################################################*/
+/*############################################# Bloc About ########################################################*/
+/*#################################################################################################################*/
+
+
+
+          h2{
+            margin-block-start: 4vh;
+            margin-block-end: 4vh;
+            font-size:calc(22px + (36 - 22) * ((100vw - 360px) / (1024 - 360)));
+          }
+
+  #blocAbout{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 95%;
+    height: 100%;
+    margin-bottom: 3%;
+
+
+  }
+
+          .blocText{
+
+            width: 85%;         
+            margin-bottom: 4%;
+	    opacity:0;      
+            
+          }
+
+           .animLeft{    
+
+                    animation-name: fadeInLeft;
+                    animation-duration: 1s;
+                    opacity: 1;
+                    
+                }
+
+              .animRight{
+                    
+                    animation-name: fadeInRight;
+                    animation-duration: 1s;
+                    opacity: 1;
+
+                }
+
+                .animReverseRight{
+
+                    animation-name: ReverseInRight;
+                    animation-duration: 1s;
+                    opacity: 0;
+
+                }
+
+                .blocText h4{
+
+                    font-size:calc(18px + (24 - 18) * ((100vw - 360px) / (1024 - 360)));
+                    margin-block-start: 1vw;
+                    margin-block-end: 0.5vw;
+                  }
+
+                  
+          .blocText p{
+
+            width: 85%;
+            font-size:calc(11px + (13 - 11) * ((100vw - 360px) / (1024 - 360)));
+            text-align: justify;
+            margin-bottom:2vw;
+            line-height: calc(1.5em + (2.5 - 1.5) * ((100vw - 360px) / (1024 - 360)));
+
+       
+          }
+
+          .blocText p:last-child{
+
+            margin-bottom: 7%;
+          }
+
+          .bold{
+            font-weight: bold;
+          }
+          
+          #about .buttonDark{
+
+            display: none;
+
+          }
+          .buttonDark{
+
+            width: 17vw;
+            height: 5vw;
+            font-size:calc(12px + (16 - 12) * ((100vw - 360px) / (1024 - 360))); 
+          }     
+
+
+          .buttonDark img{
+
+            width: 3.5vw;
+
+          }
+
+          #centerAbout{
+            width: 80%;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            text-align: center;
+            justify-content: space-around;
+            font-size:calc(14px + (18 - 14) * ((100vw - 1024px) / (1920 - 1024)));
+            letter-spacing: 0.02rem;
+            margin-top: 1%;
+            margin-bottom: 5%;
+          }
+
+                    #infoPerso{
+                      height: 100%;
+                      margin-top: 1vw;
+                      margin-bottom: 1vw;
+                      margin-left: 5%;
+
+                    }
+
+                    #carreVert{
+                      
+                      z-index: 5;
+                      width: 25vw;
+                      height: 25vw;
+                      border:3px solid #00cfeb;
+                      border-radius: 8px;
+                   
+                    }           
+
+                    #carreVert img{
+                                     
+                      left:-2vw;
+                      top: -3vw;
+                      width: 25vw;
+                      min-width: 12vw;
+                    
+                    }
+
+
+/*###########################################################################################################################################*/
+/*###################################################### Bloc Compétences ###################################################################*/
+/*###########################################################################################################################################*/
+
+#competence{
+
+    width: 100vw;
+    min-height: 100vh;
+    height: fit-content;
+    padding-bottom: 3vw;
+  }
+  
+    #competence h2{
+  
+      color:#fff;
+      margin-block-end: 4vh;
+      margin-block-start: 4vh;
+      height: fit-content;
+      
+    }
+  
+        .qualite{
+  
+          width: 90%;
+          height: 50%;
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          justify-content: space-around;
+          vertical-align: top;
+          flex-wrap: wrap;
+ 	  margin-bottom:2vh;
+
+          
+        }
+
+        
+  
+        .blocImg{
+  
+          width: 50%; 
+          min-height: 50%;      
+          opacity: 0;
+          margin-top: 2%;
+          margin-bottom: 5%;
+        }
+  
+          .animZoom{
+  
+            animation-name: zoomIn;
+            animation-duration: 1.5s;
+            opacity: 1;
+  
+          }
+  
+                      .blocImg h4{
+                        width: 100%;
+                        margin-block-end: 2%;
+                        min-height: 5vh;                 
+                        letter-spacing: 0.05rem;
+                        font-size:calc(12px + (14 - 12) * ((100vw - 360px) / (1024 - 360)));
+
+                      }
+  
+                      .blocImg p{
+                        width: 90%; 
+                        min-height: 18vw;                    
+                        font-size:calc(11px + (13 - 11) * ((100vw - 360px) / (1024 - 360)));                    
+                        line-height: 1.5em;
+                        margin-block-start:0.5vw ;
+                        
+                      }
+  
+                      .img{
+  
+                        width: 22vw;
+                        height: 22vw;
+                        /*background-color:#2ACB02;*/
+                        border: 3px solid #fff;
+                        border-radius:100%;
+                    
+                      }
+  
+                        .img:hover{
+     
+                          background-color: #00cfeb;
+                               width: 9.5vw;
+                               height: 9.5vw;
+                        }
+  
+                 
+                
+  
+                      .blocImg img{
+                  
+                        width: 60%;               
+                       
+                      }
+
+
+
+/*###########################################################################################################################################*/
+/*###################################################### Bloc Portofolio ####################################################################*/
+/*###########################################################################################################################################*/
+
+#portfolio{
+
+    width: 100vw;
+    height: fit-content;
+    margin-bottom: 2%;   
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    
+  
+  }
+  
+          #portfolio h2{
+  
+            width: fit-content;
+            margin-block-start: 4vh;
+            margin-block-end: 2vh;
+            font-size:calc(22px + (36 - 22) * ((100vw - 360px) / (1024 - 360)));
+          }
+      
+  
+          .blocProjet{
+  
+            width: 92%;
+            min-height: 40vh;
+            height: fit-content;
+            margin-top: 1.8%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+          }
+
+          .reverseProjet{
+
+            display: flex;
+            flex-direction: column-reverse;
+            align-items: center;
+          }
+  
+          .leftbloc p{
+
+            margin-block-start: 5%;
+            font-size:calc(11px + (14 - 11) * ((100vw - 360px) / (1024 - 360)));
+            line-height: 1.5em;
+
+          }
+          .leftbloc{
+  
+            width:90%;
+            min-height: 35vw;
+            height: fit-content;
+            margin-bottom: 5%;
+          
+          }
+  
+                  .leftbloc a{
+  
+                    text-decoration: none;
+                  }
+  
+                  .leftbloc h5{
+                  align-self: start;
+                  margin-block-start: 1em;
+                  margin-block-end: 0;
+                  font-size:calc(18px + (24 - 18) * ((100vw - 360px) / (1024 - 360)));
+                  letter-spacing: 0.05em;
+                  }
+  
+  
+  
+                  .techno{
+  
+                    width: fit-content;
+                    max-width: 80%;
+                    margin-bottom: 2vw;
+                    margin-top: 2vw;
+          
+                  }
+          
+                  .techno img{
+                    width: 13%;
+                  }
+          
+                  .groupButtonPortfolio{
+                    width: 100%;
+                    height: 5vw;
+                    margin-top: 5vh;
+                    margin-bottom: 2vh;
+                  }
+  
+                  .groupButtonPortfolio .buttonDark{
+  
+                    width: 28vw;
+                    height: 5vh;
+                    border-radius: 5px;
+                    font-size:calc(11px + (13 - 11) * ((100vw - 360px) / (1024 - 360)));
+  
+                  }
+  
+  
+          .rightbloc{
+  
+            width: 70%;
+            min-height: 40vw;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            padding-left: 5%;
+            margin-bottom: 7%;
+                   
+          }
+                  .rightbloc img{
+  
+                    width:100%;
+                    margin-left: 2vw;
+                
+                  }
+
+                  .description{
+    
+                    height: 4vh;             
+                    width: 100%;   
+                    position: absolute;
+                    background-color:rgba(17, 17, 17, 0.8);
+                    color:#fff;
+                    bottom: 0.5%;
+    
+                  }
+    
+                  .description p{
+    
+                    margin-block-start: 0.9%;
+                    margin-block-end: 0.5%;
+                    margin-left: 1%;
+                    text-align: center;
+                    font-size:calc(10px + (12 - 10) * ((100vw - 360px) / (1024 - 360)));
+                  }
+    
+    
+                  .slider .prev,
+                  .slider .next {
+                  
+                    height: 1rem;
+                    width: 1rem;
+                    padding: 1rem;
+                  
+                  }
+                  .slider .prev svg,
+                  .slider .next svg {
+               
+                    width: 0.7rem;
+                    height: 0.7rem;
+                  
+                  }
+
+
+                 .slider .switch {
+                    
+                    display: none;
+                             
+                  }
+                   .slider .switch i {
+                
+                    display: none;
+                    
+                  }
+             
+               
+
+/*###########################################################################################################################################*/
+/*###################################################### Bloc Contact #######################################################################*/
+/*###########################################################################################################################################*/
+
+
+
+
+  #contact h2{
+
+    margin-block-start: 3%;
+    margin-block-end: 4%;
+    justify-self: start;
+  }
+
+  #form{
+
+    width:95%;
+    height:fit-content;
+
+  }
+
+  .envoyeur{
+
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: fit-content;
+    margin-bottom: 5%;
+
+  }
+
+  .texteInput{
+    
+    width: 80vw;
+    height: 4.5vh;
+    font-size:calc(10px + (14 - 10) * ((100vw - 360px) / (1024 - 360))); 
+    text-indent: 8%;
+    line-height: 1.3em;
+    border-radius: 4px;
+    margin-top: 5%;
+  }
+
+
+
+          .texteInput::placeholder{
+
+            font-size:calc(10px + (12 - 10) * ((100vw - 360px) / (1024 - 360)));    
+
+          }
+
+          .texteInput:first-child{
+
+            margin-left: 0%;
+
+          }
+
+          .texteInput:last-child{
+
+            margin-right: 0%;
+          }
+
+
+
+          #form textarea{
+
+            width:80vw;
+            height:25vh;
+            border-radius: 4px;
+            font-size:calc(10px + (12 - 10) * ((100vw - 360px) / (1024 - 360))); 
+            letter-spacing: 0.05em;
+            padding-left: 1vw;
+            padding-top: 1vw;
+            outline: thick;
+            overflow: auto;
+            text-indent: 6%;
+            
+          }   
+                   
+          #form textarea::placeholder{
+
+            font-size:calc(11px + (13 - 11) * ((100vw - 360px) / (1024 - 360)));                   
+            letter-spacing: 0.05em;
+            
+          }
+
+       
+          #form .buttonDark{
+            width: 30vw;
+            height: 5vh;
+            background-color: #00cfeb;
+            color: #fff;
+            margin-top: 4%;
+            border: none;
+
+          }
+
+          .popup{
+
+            width: 90vw;
+            height:30vh;    
+            margin-top: 20vw;
+            border-radius: 5px;
+      
+          }
+
+          .popup p{
+
+            font-size:calc(10px + (14 - 10) * ((100vw - 360px) / (1024 - 360)));            
+            letter-spacing: 0.05em;
+            margin-block-end: 3%;
+            text-align: center;
+            
+          }
+
+          .popup .buttonDark{
+
+            width: 30vw;
+            height: 5vh;
+            background-color: #00cfeb;
+            color: #fff;
+            margin-top: 4%;
+            border: none;
+
+          }
+
+          .popupProjet{
+
+            width: 95vw;
+            height: 45vh;
+            margin-bottom:4%;   
+            border-radius: 5px;     
+          
+          }   
+
+          .popupProjet .buttonDark{
+
+            width: 25vw;
+            height: 4vh;
+            border-radius: 5px;
+          }
+
+          .popupProjet .slider {
+            position: relative;
+            overflow: hidden;
+            width: 90vw;
+            height: 36vh;
+            margin-top: 0.5vw;       
+            box-shadow: 1px 4px 8px rgba(0, 0, 0, 0.40);
+            z-index: 201;
+          }
+        
+         
+          .popupProjet .slider .background  {
+            display: block;
+            width: 100%;           
+            height: 36vh;
+          }
+          .popupProjet .slider .slider-item  > img {
+            
+            width: 100%;
+            height:36vh;
+      
+          }
+    
+          .popupProjet .slider .prev,
+          .popupProjet .slider .next {
+            z-index: 211;
+            position: absolute;
+            top: calc(50% - 1.4rem);
+            height: 1rem;
+            width: 1rem;
+            padding: 1rem;
+         
+          }
+         
+          footer{
+            width: 100vw;
+            height: fit-content;
+            background-color: #1D2528;
+            box-shadow: 0px -2px 6px rgba(0, 0, 0, 0.25);
+          }
+          
+            footer p {
+          
+          
+              width: 100%;
+              color: #fff;
+              font-size:calc(10px + (13 - 10) * ((100vw - 360px) / (1024 - 360)));   
+              letter-spacing: 0.10em;
+              text-align: center;
+            }
+          
+
+
+
+
+
+}
